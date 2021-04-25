@@ -28,6 +28,7 @@ namespace Invoice.WebApiAdapter
         {
 
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Invoice.WebApiAdapter", Version = "v1" });
