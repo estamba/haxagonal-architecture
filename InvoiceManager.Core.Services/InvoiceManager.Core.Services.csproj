@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvoiceManager.Core.Domain\InvoiceManager.Core.Domain.csproj" />
+    <ProjectReference Include="..\InvoiceManger.Core.Ports\InvoiceManger.Core.Ports.csproj" />
+  </ItemGroup>
+
+</Project>

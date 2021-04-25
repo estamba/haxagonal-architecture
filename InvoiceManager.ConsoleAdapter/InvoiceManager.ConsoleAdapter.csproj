@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvoiceManager.Core.Domain\InvoiceManager.Core.Domain.csproj" />
+    <ProjectReference Include="..\InvoiceManager.Core.Services\InvoiceManager.Core.Services.csproj" />
+    <ProjectReference Include="..\InvoiceManager.PersistenceAdapater\InvoiceManager.PersistenceAdapater.csproj" />
+    <ProjectReference Include="..\InvoiceManager.RestAdapter\InvoiceManager.RestAdapter.csproj" />
+    <ProjectReference Include="..\InvoiceManger.Core.Ports\InvoiceManger.Core.Ports.csproj" />
+  </ItemGroup>
+
+</Project>
